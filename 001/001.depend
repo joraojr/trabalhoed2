@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1466119528 source:/home/jorao/Documentos/trabalhoed2/001/main.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
