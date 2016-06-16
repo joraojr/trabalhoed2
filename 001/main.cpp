@@ -15,7 +15,7 @@ int main()
     {
       getline (myfile,line); // como foi aberto em modo texto(padrão)
                              //e não binário(ios::bin) pega cada linha
-      if (line.compare("á") == 0)
+      if (line.compare("água") == 0)
       cout << line << endl;
     }
     myfile.close();
