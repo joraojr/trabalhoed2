@@ -1,10 +1,14 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include "SplayTree.h"
+#include "No_Splay.h"
+
 using namespace std;
 
 int main()
 {
+    SplayTree Arvore;
 
     /** COLOCAR EM UMA FUNCAO **/
   string line;
@@ -15,8 +19,9 @@ int main()
     {
       getline (myfile,line); // como foi aberto em modo texto(padrão)
                              //e não binário(ios::bin) pega cada linha
-      if (line.compare("água") == 0)
+
       cout << line << endl;
+     Arvore.insertNo("a");
     }
     myfile.close();
   }

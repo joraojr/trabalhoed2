@@ -1,8 +1,21 @@
 # depslib dependency file v1.0
-1466119528 source:/home/jorao/Documentos/trabalhoed2/001/main.cpp
+1466553624 source:/home/jorao/Documentos/trabalhoed2/001/main.cpp
 	<iostream>
 	<fstream>
-	<stdio.h>
-	<stdlib.h>
 	<string>
+	"SplayTree.h"
+	"No_Splay.h"
+
+1466553666 /home/jorao/Documentos/trabalhoed2/001/include/SplayTree.h
+	"No_Splay.h"
+
+1466553573 /home/jorao/Documentos/trabalhoed2/001/include/No_Splay.h
+	<string>
+
+1466532517 source:/home/jorao/Documentos/trabalhoed2/001/src/No_Splay.cpp
+	"No_Splay.h"
+
+1466553937 source:/home/jorao/Documentos/trabalhoed2/001/src/SplayTree.cpp
+	"SplayTree.h"
+	"No_Splay.h"
 
