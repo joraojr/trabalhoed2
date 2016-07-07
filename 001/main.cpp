@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 #include "SplayTree.h"
-
+#include "Trie_RW.h"
 
 using namespace std;
 
@@ -39,6 +39,7 @@ int main()
     else cout << "Unable to open file";
     /********************************************************************/
     cout << Arvore.raiz->getDir()->getDir()->getPai()->getPalavra();
+    Arvore.imprimeArvore();
 
     return 0;
 }

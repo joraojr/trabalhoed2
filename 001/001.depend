@@ -1,20 +1,45 @@
 # depslib dependency file v1.0
-1466984187 source:/home/jorao/Documentos/trabalhoed2/001/main.cpp
+1467930211 source:/home/jorao/Documentos/trabalhoed2/001/main.cpp
 	<iostream>
 	<fstream>
 	<string>
 	"SplayTree.h"
+	"Trie_RW.h"
 
-1466984129 /home/jorao/Documentos/trabalhoed2/001/include/SplayTree.h
+1467928959 /home/jorao/Documentos/trabalhoed2/001/include/SplayTree.h
 	<iostream>
 	"No_Splay.h"
 
-1466974591 /home/jorao/Documentos/trabalhoed2/001/include/No_Splay.h
+1467039332 /home/jorao/Documentos/trabalhoed2/001/include/No_Splay.h
 	<string>
 
 1466532517 source:/home/jorao/Documentos/trabalhoed2/001/src/No_Splay.cpp
 	"No_Splay.h"
 
-1466984120 source:/home/jorao/Documentos/trabalhoed2/001/src/SplayTree.cpp
+1467039332 source:/home/jorao/Documentos/trabalhoed2/001/src/SplayTree.cpp
 	"SplayTree.h"
+
+1467930961 source:/home/jorao/Documentos/trabalhoed2/001/src/ListaEncd.cpp
+	"ListaEncd.h"
+
+1467930978 /home/jorao/Documentos/trabalhoed2/001/include/ListaEncd.h
+	<No_Lista.h>
+
+1467935008 /home/jorao/Documentos/trabalhoed2/001/include/No_Lista.h
+	<iostream>
+
+1467935074 /home/jorao/Documentos/trabalhoed2/001/include/No_RW.h
+	<No_Lista.h>
+
+1467930560 /home/jorao/Documentos/trabalhoed2/001/include/Trie_RW.h
+	<No_RW.h>
+	<iostream>
+
+1467932684 source:/home/jorao/Documentos/trabalhoed2/001/src/No_RW.cpp
+	"No_RW.h"
+	<iostream>
+
+1467930608 source:/home/jorao/Documentos/trabalhoed2/001/src/Trie_RW.cpp
+	"Trie_RW.h"
+	<iostream>
 

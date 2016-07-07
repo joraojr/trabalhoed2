@@ -10,8 +10,11 @@ public:
     void insertNo(string palavra);
     bool busca(string palavra);
     void imprimeArvore();
-    string getRaiz(){return this->raiz->getPalavra();}
- No_Splay* raiz;
+    string getRaiz()
+    {
+        return this->raiz->getPalavra();
+    }
+    No_Splay* raiz;
 private:
 
     No_Splay* insertNoAux(string palavra, No_Splay* raiz);
