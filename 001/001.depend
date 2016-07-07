@@ -25,13 +25,13 @@
 1467930978 /home/jorao/Documentos/trabalhoed2/001/include/ListaEncd.h
 	<No_Lista.h>
 
-1467935008 /home/jorao/Documentos/trabalhoed2/001/include/No_Lista.h
+1467935499 /home/jorao/Documentos/trabalhoed2/001/include/No_Lista.h
 	<iostream>
 
 1467935074 /home/jorao/Documentos/trabalhoed2/001/include/No_RW.h
 	<No_Lista.h>
 
-1467930560 /home/jorao/Documentos/trabalhoed2/001/include/Trie_RW.h
+1467935260 /home/jorao/Documentos/trabalhoed2/001/include/Trie_RW.h
 	<No_RW.h>
 	<iostream>
 
@@ -39,7 +39,7 @@
 	"No_RW.h"
 	<iostream>
 
-1467930608 source:/home/jorao/Documentos/trabalhoed2/001/src/Trie_RW.cpp
+1467935260 source:/home/jorao/Documentos/trabalhoed2/001/src/Trie_RW.cpp
 	"Trie_RW.h"
 	<iostream>
 
