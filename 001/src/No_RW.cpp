@@ -51,27 +51,31 @@ void No_RW::setCaracter(char c)
 void No_RW::insereLista(char c)
 {
     No_Lista* p = new No_Lista;
-    //No_RW* f = new No_RW;
+    No_RW* f = new No_RW;
 
     p->setCaractereEspecial(c);
-    //p->setFilho(f);
+    p->setFilho(f);
     p->setProx(this->caracteresEspeciais);
 
     this->caracteresEspeciais = p;
 }
 
-bool No_RW::buscaLista(char c)
+No_Lista* No_RW::buscaLista(char c)
 {
     No_Lista * aux = this->caracteresEspeciais;
 
     while(aux != NULL)
     {
         if(aux->getCaractereEspecial() == c)
-            return true;
+            break;
         aux = aux->getProx();
     }
 
-    return false;
+    return aux;
+}
+
+No_Lista* No_RW::getCaracteresEspeciais(){
+    return this->caracteresEspeciais;
 }
 
 

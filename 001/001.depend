@@ -1,45 +1,51 @@
 # depslib dependency file v1.0
-1467930211 source:/home/jorao/Documentos/trabalhoed2/001/main.cpp
+1467953929 source:/home/jorao/Documentos/trabalhoed2/001/main.cpp
 	<iostream>
 	<fstream>
 	<string>
 	"SplayTree.h"
 	"Trie_RW.h"
+	<cwchar>
 
-1467928959 /home/jorao/Documentos/trabalhoed2/001/include/SplayTree.h
+1467946374 /home/jorao/Documentos/trabalhoed2/001/include/SplayTree.h
 	<iostream>
 	"No_Splay.h"
 
-1467039332 /home/jorao/Documentos/trabalhoed2/001/include/No_Splay.h
+1466974591 /home/jorao/Documentos/trabalhoed2/001/include/No_Splay.h
 	<string>
 
-1466532517 source:/home/jorao/Documentos/trabalhoed2/001/src/No_Splay.cpp
+1466956398 source:/home/jorao/Documentos/trabalhoed2/001/src/No_Splay.cpp
 	"No_Splay.h"
 
-1467039332 source:/home/jorao/Documentos/trabalhoed2/001/src/SplayTree.cpp
+1466984120 source:/home/jorao/Documentos/trabalhoed2/001/src/SplayTree.cpp
 	"SplayTree.h"
 
-1467930961 source:/home/jorao/Documentos/trabalhoed2/001/src/ListaEncd.cpp
+1467946374 source:/home/jorao/Documentos/trabalhoed2/001/src/ListaEncd.cpp
 	"ListaEncd.h"
 
-1467930978 /home/jorao/Documentos/trabalhoed2/001/include/ListaEncd.h
+1467946374 /home/jorao/Documentos/trabalhoed2/001/include/ListaEncd.h
 	<No_Lista.h>
 
-1467935499 /home/jorao/Documentos/trabalhoed2/001/include/No_Lista.h
+1467946374 /home/jorao/Documentos/trabalhoed2/001/include/No_Lista.h
 	<iostream>
 
-1467935074 /home/jorao/Documentos/trabalhoed2/001/include/No_RW.h
+1467951117 /home/jorao/Documentos/trabalhoed2/001/include/No_RW.h
 	<No_Lista.h>
 
-1467935260 /home/jorao/Documentos/trabalhoed2/001/include/Trie_RW.h
+1467946374 /home/jorao/Documentos/trabalhoed2/001/include/Trie_RW.h
 	<No_RW.h>
 	<iostream>
 
-1467932684 source:/home/jorao/Documentos/trabalhoed2/001/src/No_RW.cpp
+1467951011 source:/home/jorao/Documentos/trabalhoed2/001/src/No_RW.cpp
 	"No_RW.h"
 	<iostream>
 
-1467935260 source:/home/jorao/Documentos/trabalhoed2/001/src/Trie_RW.cpp
+1467951349 source:/home/jorao/Documentos/trabalhoed2/001/src/Trie_RW.cpp
 	"Trie_RW.h"
 	<iostream>
+
+1467602968 source:/home/jorao/Documentos/trabalhoed2/001/src/No_MW.cpp
+	"No_MW.h"
+
+1467693671 /home/jorao/Documentos/trabalhoed2/001/include/No_MW.h
 

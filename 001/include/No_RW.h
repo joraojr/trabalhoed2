@@ -13,13 +13,12 @@ public:
     void setEhChave();
     No_RW * getCaracter(char c);
     void insereLista(char c);
-    bool buscaLista(char c);
-    //ListaEncd* getCaracteresEspeciais();
+    No_Lista* buscaLista(char c);
+    No_Lista* getCaracteresEspeciais();
     bool getEhChave();
 private:
     No_RW ** caractere;
     No_Lista* caracteresEspeciais;
-    //ListaEncd* caracteresEspeciais;
     int tamAlfabeto = 27;
     bool ehChave;
 
