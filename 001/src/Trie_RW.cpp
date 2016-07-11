@@ -10,15 +10,32 @@ Trie_RW::~Trie_RW()
     //dtor
 }
 
-bool Trie_RW::buscaPalavra(char *c)
+bool Trie_RW::verificaAlfabeto(char c){
+    return (c >= 'a' && c <= 'z');
+}
+
+bool Trie_RW::buscaPalavra(string c)
 {
+    c = normalizaString(c);
     int pos = 0;
-    int tam =  2;//mudar
+    int tam =  c.size() -1;//mudar
     return buscaPalavraAux(c,this->raiz,tam,pos);
 }
-bool Trie_RW::buscaPalavraAux(char *c, No_RW * raiz, int tam, int pos)
+
+
+string Trie_RW::normalizaString(string palavra){
+    std::cout <<palavra;
+    for(int i=0 ;i< palavra.size() ; i++){
+        palavra[i] = tolower(palavra[i]);
+    }
+    std::cout << palavra <<std::endl;
+    return palavra;
+}
+
+
+bool Trie_RW::buscaPalavraAux(string c, No_RW * raiz, int tam, int pos)
 {
-    if(c[pos] >'a' && c[pos] < 'z')//Está no vetor, Caracter normal
+    if(verificaAlfabeto(c[pos]))//Está no vetor, Caracter normal
     {
         if(raiz->getCaracter(c[pos]) == NULL)
             return false;
@@ -44,34 +61,37 @@ bool Trie_RW::buscaPalavraAux(char *c, No_RW * raiz, int tam, int pos)
 
 }
 
-void Trie_RW::inserePalavra(char *c)
+void Trie_RW::inserePalavra(string c)
 {
+    c = normalizaString(c);
     if(this->buscaPalavra(c))
     {
-        std::cout<< "Estou aqui"<<std::endl;
+        std::cout<< "Estou aqui    "<< c <<std::endl;
         return ;
     }
     else
     {
-        int tam = 2;
+        int tam = c.size() -1;
         int pos =0;
         inserePalavraAux(c,this->raiz, tam, pos);
     }
 }
 
-void Trie_RW::inserePalavraAux(char *c ,No_RW* raiz,int tam, int pos)
+void Trie_RW::inserePalavraAux(string c ,No_RW* raiz,int tam, int pos)
 {
-    if(c[pos] > 'a' && c[pos] < 'z')
+    if(verificaAlfabeto(c[pos]))
     {
+
         if(raiz->getCaracter(c[pos]) == NULL)
         {
 
             raiz->setCaracter(c[pos]);
-            std::cout<<"Inserindo "<<c[pos]<<std::endl;
+
 
         }
         if(pos == tam)
         {
+            std::cout<<"Inserindo chave "<<c[pos]<<std::endl;
             raiz->getCaracter(c[pos])->setEhChave();
         }
         else
@@ -81,10 +101,12 @@ void Trie_RW::inserePalavraAux(char *c ,No_RW* raiz,int tam, int pos)
     }
     else
     {
-        std::cout <<"Inserindo Lista  "<<c[pos] <<std::endl;
+
+        std::cout <<"Inserindo Lista  "<<c[pos] << pos <<std::endl;
         raiz->insereLista(c[pos]);
         if(pos == tam)
         {
+            std::cout << "Inserindo chave   "<<c[pos]<<std::endl;
             raiz->getCaracteresEspeciais()->getFilho()->setEhChave();
         }
         else

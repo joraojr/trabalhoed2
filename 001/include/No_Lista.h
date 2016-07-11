@@ -9,8 +9,10 @@ public:
     No_Lista()
     {
         this->prox = NULL;
+        this->filho = NULL;
     };
     ~No_Lista();
+
     void setCaractereEspecial(char c)
     {
         this->caractereEspecial = c;

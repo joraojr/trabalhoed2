@@ -1,5 +1,6 @@
 #ifndef NO_RW_H
 #define NO_RW_H
+#include <string>
 #include <No_Lista.h>
 
 /** Criar  NORMALIZAÇÃO ( TO UPPER OR TO LOWER) */

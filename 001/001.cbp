@@ -34,10 +34,18 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/ListaEncd.h" />
+		<Unit filename="include/No_Lista.h" />
+		<Unit filename="include/No_RW.h" />
 		<Unit filename="include/No_Splay.h" />
 		<Unit filename="include/SplayTree.h" />
+		<Unit filename="include/Trie_RW.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/ListaEncd.cpp" />
+		<Unit filename="src/No_RW.cpp" />
+		<Unit filename="src/No_Splay.cpp" />
 		<Unit filename="src/SplayTree.cpp" />
+		<Unit filename="src/Trie_RW.cpp" />
 		<Extensions>
 			<envvars />
 			<code_completion />

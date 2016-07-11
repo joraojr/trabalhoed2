@@ -1,11 +1,10 @@
 # depslib dependency file v1.0
-1467953929 source:/home/jorao/Documentos/trabalhoed2/001/main.cpp
+1468208866 source:/home/jorao/Documentos/trabalhoed2/001/main.cpp
 	<iostream>
 	<fstream>
 	<string>
 	"SplayTree.h"
 	"Trie_RW.h"
-	<cwchar>
 
 1467946374 /home/jorao/Documentos/trabalhoed2/001/include/SplayTree.h
 	<iostream>
@@ -26,13 +25,14 @@
 1467946374 /home/jorao/Documentos/trabalhoed2/001/include/ListaEncd.h
 	<No_Lista.h>
 
-1467946374 /home/jorao/Documentos/trabalhoed2/001/include/No_Lista.h
+1468203321 /home/jorao/Documentos/trabalhoed2/001/include/No_Lista.h
 	<iostream>
 
-1467951117 /home/jorao/Documentos/trabalhoed2/001/include/No_RW.h
+1468203125 /home/jorao/Documentos/trabalhoed2/001/include/No_RW.h
+	<string>
 	<No_Lista.h>
 
-1467946374 /home/jorao/Documentos/trabalhoed2/001/include/Trie_RW.h
+1468205616 /home/jorao/Documentos/trabalhoed2/001/include/Trie_RW.h
 	<No_RW.h>
 	<iostream>
 
@@ -40,7 +40,7 @@
 	"No_RW.h"
 	<iostream>
 
-1467951349 source:/home/jorao/Documentos/trabalhoed2/001/src/Trie_RW.cpp
+1468206207 source:/home/jorao/Documentos/trabalhoed2/001/src/Trie_RW.cpp
 	"Trie_RW.h"
 	<iostream>
 

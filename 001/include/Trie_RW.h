@@ -2,6 +2,8 @@
 #define TRIE_RW_H
 #include <No_RW.h>
 #include <iostream>
+using std::string;
+
 
 
 class Trie_RW
@@ -9,12 +11,14 @@ class Trie_RW
 public:
     Trie_RW();
     ~Trie_RW();
-    bool buscaPalavra(char* c);
-    void inserePalavra(char* c);
+    bool buscaPalavra(string c);
+    void inserePalavra(string c);
 private:
     No_RW* raiz;
-    bool buscaPalavraAux(char *c,No_RW * raiz, int tam, int pos);
-    void inserePalavraAux(char *c, No_RW* raiz, int tam,int pos);
+    bool buscaPalavraAux(string c,No_RW * raiz, int tam, int pos);
+    void inserePalavraAux(string c, No_RW* raiz, int tam,int pos);
+    bool verificaAlfabeto(char c);
+    string normalizaString(string palavra);
 };
 
 #endif // TRIE_RW_H
