@@ -1,0 +1,88 @@
+# depslib dependency file v1.0
+1468301532 source:/home/jorao/Documentos/trabalhoed2/001/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+	<stdio.h>
+	<algorithm>
+	<dirent.h>
+	"HashTable.h"
+	"Trie_RW.h"
+	"Leitor.h"
+	"ListaEncd.h"
+	"Estrutura.h"
+
+1467928959 /home/jorao/Documentos/trabalhoed2/001/include/SplayTree.h
+	<iostream>
+	"No_Splay.h"
+
+1467039332 /home/jorao/Documentos/trabalhoed2/001/include/No_Splay.h
+	<string>
+
+1466532517 source:/home/jorao/Documentos/trabalhoed2/001/src/No_Splay.cpp
+	"No_Splay.h"
+
+1467039332 source:/home/jorao/Documentos/trabalhoed2/001/src/SplayTree.cpp
+	"SplayTree.h"
+
+1468292866 source:/home/jorao/Documentos/trabalhoed2/001/src/ListaEncd.cpp
+	"ListaEncd.h"
+
+1468292824 /home/jorao/Documentos/trabalhoed2/001/include/ListaEncd.h
+	<No_Lista.h>
+
+1468249484 /home/jorao/Documentos/trabalhoed2/001/include/No_Lista.h
+	<iostream>
+
+1468258707 /home/jorao/Documentos/trabalhoed2/001/include/No_RW.h
+	<string>
+	"No_Lista.h"
+
+1468294998 /home/jorao/Documentos/trabalhoed2/001/include/Trie_RW.h
+	"No_RW.h"
+	"Estrutura.h"
+	<iostream>
+
+1467992904 source:/home/jorao/Documentos/trabalhoed2/001/src/No_RW.cpp
+	"No_RW.h"
+	<iostream>
+
+1468295335 source:/home/jorao/Documentos/trabalhoed2/001/src/Trie_RW.cpp
+	"Trie_RW.h"
+	<iostream>
+
+1467602968 source:/home/jorao/Documentos/trabalhoed2/001/src/No_MW.cpp
+	"No_MW.h"
+
+1467693671 /home/jorao/Documentos/trabalhoed2/001/include/No_MW.h
+
+1468296173 /home/jorao/Documentos/trabalhoed2/001/include/HashTable.h
+	<string>
+	"Estrutura.h"
+
+1468296649 source:/home/jorao/Documentos/trabalhoed2/001/src/HashTable.cpp
+	<iostream>
+	<string>
+	"HashTable.h"
+
+1468302525 source:/home/jorao/Documentos/trabalhoed2/001/src/Leitor.cpp
+	"Leitor.h"
+
+1468301063 /home/jorao/Documentos/trabalhoed2/001/include/Leitor.h
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+	<dirent.h>
+	<algorithm>
+	"ListaEncd.h"
+	"Trie_RW.h"
+	"HashTable.h"
+	"Estrutura.h"
+
+1468297716 /home/jorao/Documentos/trabalhoed2/001/include/Estrutura.h
+
+1468294843 source:/home/jorao/Documentos/trabalhoed2/001/src/Estrutura.cpp
+	"Estrutura.h"
+
